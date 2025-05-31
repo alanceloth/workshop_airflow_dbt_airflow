@@ -45,4 +45,5 @@ my_cosmos_dag = DbtDag(
     catchup=False,
     dag_id=f"dag_jornada_dw_{dbt_env}",
     default_args={"retries": 2},
+    #atualizando
 )
