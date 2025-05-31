@@ -1,7 +1,7 @@
 services:
   scheduler:
     volumes:
-      - ./dbt/jornada_dw:/usr/local/airflow/dbt/jornada_dw
+      - ./dbt/workshop_airflow_dbt_data_warehouse/jornada_dw:/usr/local/airflow/dbt/jornada_dw
   dag-processor:
     volumes:
-      - ./dbt/jornada_dw:/usr/local/airflow/dbt/jornada_dw
+      - ./dbt/workshop_airflow_dbt_data_warehouse/jornada_dw:/usr/local/airflow/dbt/jornada_dw

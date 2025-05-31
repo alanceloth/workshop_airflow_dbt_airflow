@@ -1,0 +1,3 @@
+[submodule "dbt/workshop_airflow_dbt_data_warehouse"]
+	path = dbt/workshop_airflow_dbt_data_warehouse
+	url = https://github.com/alanceloth/workshop_airflow_dbt_data_warehouse
